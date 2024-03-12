@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "ms-get-data-of-nip-ext",
+    "version": "1.0",
+    "description": "Retrieves data of company from GUS office",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["INSERT_HERE_APP_ADDRESS"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
